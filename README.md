@@ -16,7 +16,7 @@ gARment is an AR wearable plug-in that only needs to import model data to achiev
 
  4. Copy the prefab "yurongfu" in the **gARment/prefab** path, rename and open the replica, replace the child object "yurongfu" in the object "yurongfu" with the previously made FBX file, and make the garment roughly align with the human skeleton by changing the Transform.
 
- 5. On the "Clo Control" script in the child "Controller" of the object "yurongfu", drag the child object of the corresponding name (that is, the skeleton corresponds to one of them) in the child object of the FBX file that you just replaced at the variable that does not contain the "Bot" prefix.
+ 5. On the "Clo Control" script in the child "Controller" of the object "yurongfu", drag the child object of the corresponding name (that is, the skeleton corresponds to one of them) in the child object of the FBX file that you just replaced at the variable that does not contain the "Bot" prefix.If you have a Trousers, configure the "PanControl" script using the same principle.
 
  6. Open the Scene "gARment" in the path **gARment/Scene**. Replace the **"SkeletonPrefab"** in the **"HumanBodyTracker"** component of the **"HumanBodyTracking"** object with the replica made in Step 4 and 5.
 
