@@ -1,6 +1,7 @@
 # gARment
 ## ------------RESONATOR studio------------
 gARment is an AR wearable plug-in that only needs to import model data to achieve the effect of virtual wearing. It is necessary to understand and be able to perform basic 3D software bone-binding operation, and bind any model (shirt, hat, etc.) of your choice with the bones provided by us.
+
 ![visual effect](pic/gif/45856f9817fac3d98f8b%20-small-original.gif)
 
 ###### **The detailed operations are as follows.**
